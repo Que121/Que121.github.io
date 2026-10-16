@@ -1,0 +1,354 @@
+{
+  "bio": {
+    "name": "Haohua Que",
+    "role": "Ph.D. Student · Mechanical Engineering",
+    "affiliation": "University of Georgia",
+    "lab": "Mobility Lab",
+    "location": "Athens, Georgia",
+    "intro": "I'm a Ph.D. student in Mechanical Engineering at the University of Georgia, working with Handong Yao in the Mobility Lab.",
+    "focus": "I study how autonomous systems perceive, plan, and operate under real-world constraints. My work connects driving robustness, robot exploration, and efficient AI deployment.",
+    "education": [
+      {
+        "institution": "University of Georgia",
+        "degree": "Ph.D. in Mechanical Engineering",
+        "period": "2025–present",
+        "status": "In progress"
+      },
+      {
+        "institution": "Beijing Forestry University",
+        "degree": "Bachelor's degree in Electronic Information and Technology",
+        "period": "2020–2024",
+        "status": "Completed"
+      }
+    ],
+    "honors": [
+      {
+        "year": 2026,
+        "title": "Best Student Paper Award Nominee",
+        "context": "IJCNN 2026 · IEEE WCCI 2026",
+        "description": "MotiMem."
+      },
+      {
+        "year": 2025,
+        "title": "Best Paper Award",
+        "context": "Edge AI for Robotics Workshop · IROS 2025",
+        "description": "Preliminary version of MACE."
+      },
+      {
+        "year": 2023,
+        "title": "First Prize",
+        "context": "RoboMaster University League · Northwest Regional",
+        "description": "Team award with the joint Sirius team, as captain of Beijing Forestry University's Forest Wolves team."
+      },
+      {
+        "year": 2023,
+        "title": "Third Prize",
+        "context": "RoboMaster University Championship · National Finals",
+        "description": "Team award with the joint Sirius team, as captain of Beijing Forestry University's Forest Wolves team."
+      }
+    ],
+    "experience": [
+      {
+        "organization": "University of Georgia · Mobility Lab",
+        "role": "Graduate Research Assistant",
+        "period": "Fall 2025–present",
+        "description": "Research on end-to-end autonomous driving, visual planning, and robustness under camera degradation. Participates in TRAVELS and leads the UGA RAV literature-review site.",
+        "link": "https://uga-mobility-lab.github.io/rav-literature-review/"
+      },
+      {
+        "organization": "Tsinghua University · Sense Lab",
+        "role": "Research Assistant & Robotics Team Lead",
+        "period": "Oct 2023–Oct 2025",
+        "description": "Led the robotics group for two years. Co-first author of SenseExpo, combining lightweight occupancy prediction, frontier exploration, and ROS integration.",
+        "link": "https://senselabrobo4111.github.io/.github/"
+      },
+      {
+        "organization": "MakeSens Intelligent Technology (Beijing) Co., Ltd.",
+        "role": "Robotics Engineering Intern",
+        "period": "2023–2025",
+        "description": "",
+        "link": "https://www.makesensic.com/"
+      },
+      {
+        "organization": "Wiener Tech",
+        "role": "Project Management Intern",
+        "period": "2024",
+        "description": ""
+      },
+      {
+        "organization": "Beijing Forestry University · Forest Wolves RoboMaster Team",
+        "role": "Team Member & Captain (2023)",
+        "period": "2021–2023",
+        "description": "Contributed to computer vision and mechanical development for the 2022 engineering robot. In 2023, the team joined with Beijing Information Science and Technology University as Sirius."
+      },
+      {
+        "organization": "Beijing Forestry University",
+        "role": "Research Assistant",
+        "period": "2021–2022",
+        "description": ""
+      }
+    ],
+    "researchAreas": [
+      {
+        "id": "autonomy",
+        "title": "Reliable autonomy",
+        "description": "Understanding when perception and planning fail, and how autonomous driving responds to degraded visual input."
+      },
+      {
+        "id": "robotics",
+        "title": "Robot exploration",
+        "description": "Helping robots explore unknown spaces through predictive maps and coordination across a swarm."
+      },
+      {
+        "id": "efficient-ai",
+        "title": "Efficient AI",
+        "description": "Connecting models and hardware for perception under limits on bandwidth, memory, power, and latency."
+      }
+    ],
+    "preferredName": "Quinton Que"
+  },
+  "links": {
+    "email": "mailto:hq10606@uga.edu",
+    "scholar": "https://scholar.google.com/citations?user=EWgqpTgAAAAJ&hl=en",
+    "github": "https://github.com/Que121",
+    "linkedin": "https://www.linkedin.com/in/haohua-que-074375389/",
+    "lab": "https://uga-mobility-lab.github.io/.github/index.html",
+    "handongYao": "https://engineering.uga.edu/team_member/handong-yao/"
+  },
+  "authorLegend": "† Equal contribution · * Corresponding author",
+  "papers": [
+    {
+      "id": "drivedegrade",
+      "shortName": "DriveDegrade",
+      "title": "When Does Corruption Break the Plan? A Degradation-Tolerance Benchmark for Camera-Only End-to-End Driving",
+      "authors": "Haohua Que, Handong Yao*",
+      "year": 2027,
+      "venue": "IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "venueShort": "WACV",
+      "status": "Accepted",
+      "selected": true,
+      "summary": "Testing how visual corruption changes driving plans—and distinguishing robustness from a model's failure to use its cameras.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2608.29005"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2608.29005"
+        }
+      ]
+    },
+    {
+      "id": "falcon",
+      "shortName": "FALCON",
+      "title": "FALCON: FPGA-Accelerated Latency-Certifiable Occupancy Networks for Camera-Based Autonomous Driving",
+      "authors": "Haohua Que†, Mingkai Liu†, Handong Yao*",
+      "year": 2027,
+      "venue": "IEEE/CVF Winter Conference on Applications of Computer Vision",
+      "venueShort": "WACV",
+      "status": "Accepted",
+      "selected": true,
+      "summary": "Camera-based 3D occupancy on the KR260, combining bounded accelerator computation, measured inference latency, and a watchdog for timely output.",
+      "links": [
+        {
+          "label": "Code & results",
+          "url": "https://github.com/Que121/falcon-kr260-release"
+        }
+      ]
+    },
+    {
+      "id": "camera-degradation-closed-loop",
+      "shortName": "Camera degradation",
+      "title": "End-to-End Automated Driving Under Camera Degradation: Planning Tolerance Thresholds and Closed-Loop Evidence",
+      "authors": "H. Que, H. Yao*",
+      "year": 2027,
+      "venue": "106th Transportation Research Board Annual Meeting",
+      "venueShort": "TRB",
+      "status": "Recommended for presentation",
+      "selected": false,
+      "summary": "Planning tolerance and closed-loop driving behavior under degraded camera input.",
+      "links": []
+    },
+    {
+      "id": "space",
+      "shortName": "SPACE",
+      "title": "SPACE: Swarm Pheromone Fields for Adaptive Collision-Aware Exploration",
+      "authors": "Haohua Que, Haojia Gao, Mingkai Liu, Qian Zhang, Jiajun Sun, Fei Qiao",
+      "year": 2026,
+      "venue": "IEEE International Conference on Robotics and Biomimetics",
+      "venueShort": "ROBIO",
+      "status": "Accepted",
+      "selected": true,
+      "summary": "Pheromone-inspired coordination that helps robot swarms explore unknown spaces while reducing congestion and inter-robot contact.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2606.29372"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2606.29372"
+        }
+      ]
+    },
+    {
+      "id": "cable",
+      "shortName": "CABLE",
+      "title": "CABLE: Cloud-Assisted Bandwidth-efficient LMM-based Encoding for V2X Systems",
+      "authors": "Haohua Que, Zhipeng Bao, Qianyi Wu, Handong Yao*",
+      "year": 2026,
+      "venue": "IEEE International Conference on Systems, Man, and Cybernetics",
+      "venueShort": "SMC",
+      "status": "Accepted",
+      "selected": false,
+      "summary": "Cloud-assisted encoding for bandwidth-constrained vehicle-to-everything systems.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2606.19258"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2606.19258"
+        }
+      ]
+    },
+    {
+      "id": "senseexpo",
+      "shortName": "SenseExpo",
+      "title": "SenseExpo: Spatial Exploration and Navigation Via Scene Estimation from Expeditious Predictive Operators",
+      "authors": "Haojia Gao†, Haohua Que†, Mingkai Liu, Jiayue Xie, Hoiian Au, Yusen Qin, Qian Zhang, Jiajun Sun, Weihao Shan, Tianle Zhu, Fei Qiao*, Handong Yao*",
+      "year": 2026,
+      "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+      "venueShort": "IROS",
+      "status": "Accepted",
+      "selected": false,
+      "summary": "A compact map predictor helps a robot choose frontiers and explore unknown environments through a ROS navigation pipeline.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2503.16000"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2503.16000"
+        }
+      ]
+    },
+    {
+      "id": "acesplat",
+      "shortName": "ACESplat",
+      "title": "ACESplat: Accelerated 3D Gaussian Scene Regression Via RGB and Poses Only",
+      "authors": "Mingkai Liu†, Haohua Que†, Dikai Fan, Haojia Gao, Tianle Zhu, Handong Yao, Qian Zhang, Ruopeng Zhang, Xianliang Huang, Fei Qiao*",
+      "year": 2026,
+      "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+      "venueShort": "IROS",
+      "status": "Accepted",
+      "selected": false,
+      "summary": "Accelerated 3D Gaussian scene regression from RGB images and camera poses.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2606.22091"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2606.22091"
+        }
+      ]
+    },
+    {
+      "id": "dinolink",
+      "shortName": "DinoLink",
+      "title": "DinoLink: A Token-Centric Representation Compression Framework for Bandwidth-Constrained Collaborative V2X Perception",
+      "authors": "Tianle Zhu†, Haohua Que†, Hongyi Xu, Handong Yao*, Zhipeng Bao",
+      "year": 2026,
+      "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems",
+      "venueShort": "IROS",
+      "status": "Accepted",
+      "selected": true,
+      "summary": "Sharing compact semantic tokens instead of raw images for collaborative perception over constrained vehicle-to-everything links.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2606.26398"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2606.26398"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/UGA-MOBILITY-LAB/dino_link"
+        }
+      ]
+    },
+    {
+      "id": "motimem",
+      "shortName": "MotiMem",
+      "title": "MotiMem: Motion-Aware Approximate Memory for Energy-Efficient Neural Perception in Autonomous Vehicles",
+      "authors": "Haohua Que, Mingkai Liu, Jiayue Xie, Haojia Gao, Jiajun Sun, Hongyi Xu, Handong Yao, Fei Qiao",
+      "year": 2026,
+      "venue": "IEEE World Congress on Computational Intelligence / International Joint Conference on Neural Networks",
+      "venueShort": "WCCI / IJCNN",
+      "status": "Accepted",
+      "selected": false,
+      "summary": "Motion-aware approximate memory for energy-efficient neural perception in autonomous vehicles.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2603.27108"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2603.27108"
+        }
+      ]
+    },
+    {
+      "id": "mace",
+      "shortName": "MACE",
+      "title": "MACE: Mixture-of-Experts Accelerated Coordinate Encoding for Large-Scale Scene Localization and Rendering",
+      "authors": "Mingkai Liu, Dikai Fan, Haohua Que, Haojia Gao, Xiao Liu, Shuxue Peng, Meixia Lin, Shengyu Gu, Ruicong Ye, Wanli Qiu, Handong Yao, Ruopeng Zhang, Xianliang Huang",
+      "year": 2026,
+      "venue": "IEEE International Conference on Robotics and Automation",
+      "venueShort": "ICRA",
+      "status": "Accepted",
+      "selected": false,
+      "summary": "Mixture-of-experts coordinate encoding for localization and rendering in large scenes.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2510.14251"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2510.14251"
+        }
+      ]
+    },
+    {
+      "id": "road-readiness-ictd",
+      "shortName": "Road readiness",
+      "title": "Road Infrastructure Readiness Evaluation for Commercial Low-Level Autonomous Vehicles",
+      "authors": "Tianle Zhu, Haohua Que, Handong Yao",
+      "year": 2026,
+      "venue": "ASCE International Conference on Transportation and Development",
+      "venueShort": "ICTD",
+      "status": "Accepted",
+      "selected": false,
+      "summary": "Evaluating road infrastructure readiness for commercial vehicles with low levels of driving automation.",
+      "links": [
+        {
+          "label": "Project & conference record",
+          "url": "https://www.cr2c2.com/research/major-research-initiatives/mri-2/project-r2-5"
+        },
+        {
+          "label": "Related poster",
+          "url": "https://www.cr2c2.com/technology-transfer-and-collaboration/annual-regional-conferences/southeastconferences-2026/posters-26/36"
+        }
+      ]
+    }
+  ]
+}
