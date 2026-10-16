@@ -152,6 +152,14 @@
       "summary": "Camera-based 3D occupancy on the KR260, combining bounded accelerator computation, measured inference latency, and a watchdog for timely output.",
       "links": [
         {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2610.22143"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.22143"
+        },
+        {
           "label": "Code & results",
           "url": "https://github.com/Que121/falcon-kr260-release"
         }
