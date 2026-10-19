@@ -118,6 +118,28 @@
   "authorLegend": "† Equal contribution · * Corresponding author",
   "papers": [
     {
+      "id": "senseswarm",
+      "shortName": "SenseSwarm",
+      "title": "SenseSwarm: Swarm Exploration via Neural Structure Estimation with Shared World-Anticipation for Rapid Mapping",
+      "authors": "Haohua Que, Haojia Gao, Mingkai Liu, Hoiian Au, Qian Zhang, Jiayue Xie, Yule Cai, Bokui Chen, Xueqian Wang, Fei Qiao",
+      "year": 2026,
+      "venue": "arXiv",
+      "venueShort": "arXiv",
+      "status": "Preprint",
+      "selected": false,
+      "summary": "Shared neural world anticipation for coordinated swarm exploration and rapid mapping.",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2610.22905"
+        },
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2610.22905"
+        }
+      ]
+    },
+    {
       "id": "drivedegrade",
       "shortName": "DriveDegrade",
       "title": "When Does Corruption Break the Plan? A Degradation-Tolerance Benchmark for Camera-Only End-to-End Driving",
